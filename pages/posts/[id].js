@@ -1,10 +1,10 @@
-import Layout from '/Users/abhi/Documents/daily_cal/week1/nextjs-blog/components/layout.js';
+import Layout from '../../components/layout.js';
 
-import { getAllPostIds, getPostData } from '/Users/abhi/Documents/daily_cal/week1/nextjs-blog/lib/posts.js';
+import { getAllPostIds, getPostData } from '../../lib/posts.js';
 
 import Head from 'next/head';
 import utilStyles from '../../styles/utils.module.css';
-import Date from '/Users/abhi/Documents/daily_cal/week1/nextjs-blog/components/date.js';
+import Date from '../../components/date.js';
 
 export async function getStaticProps({ params }) {
   // Add the "await" keyword like this:
